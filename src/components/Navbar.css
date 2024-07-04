@@ -1,0 +1,50 @@
+/* src/components/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: black;
+}
+
+.logoImage {
+  width: 70px;
+  height: 60px;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+
+.navbar-links li {
+  display: inline;
+}
+
+.navbar-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: x-large;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .navbar-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}

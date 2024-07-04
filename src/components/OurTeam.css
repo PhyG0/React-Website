@@ -1,0 +1,17 @@
+.our-team {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.outer {
+  background-color: black;
+  color: #fb0;
+}
+
+.outer h1 {
+  font-size: 3.2rem;
+  padding: 4rem;
+}
